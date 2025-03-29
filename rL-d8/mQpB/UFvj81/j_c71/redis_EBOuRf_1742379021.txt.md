@@ -5746,7 +5746,6 @@ char beta; beta=’ab’; 是错误的，改正：char beta; beta=’ab/’
 char beta; beta=”a”; 是错误的，改正：char beta; beta=’a’
 
 定义字符串数组：char a[ ] = "abcse"
-
 非图形字符，如退格，换行，也可以表示成字符型常量。表示方法是使用转义字符”/”;
 
 已知char b[5],*p=b; ，则正确的赋值语句是 C
