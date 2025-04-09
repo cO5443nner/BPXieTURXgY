@@ -6,7 +6,6 @@
 	<array>
 		<string>Chapter1.playgroundchapter</string>
 	</array>
-	<key>ContentIdentifier</key>
 	<string>com.apple.playgrounds.blank</string>
 	<key>ContentVersion</key>
 	<string>1.0</string>
