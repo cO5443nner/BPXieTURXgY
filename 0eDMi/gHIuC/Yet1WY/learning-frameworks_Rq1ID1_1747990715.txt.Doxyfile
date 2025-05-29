@@ -87,7 +87,6 @@ ALLOW_UNICODE_NAMES    = NO
 # Indonesian, Italian, Japanese, Japanese-en (Japanese with English messages),
 # Korean, Korean-en (Korean with English messages), Latvian, Lithuanian,
 # Macedonian, Norwegian, Persian (Farsi), Polish, Portuguese, Romanian, Russian,
-# Serbian, Serbian-Cyrillic, Slovak, Slovene, Spanish, Swedish, Turkish,
 # Ukrainian and Vietnamese.
 # The default value is: English.
 
