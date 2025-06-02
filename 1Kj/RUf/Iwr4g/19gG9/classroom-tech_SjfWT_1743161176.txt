@@ -10,7 +10,6 @@ customers.
 Specific task Group Member-1
 1. Display all the customers who have ’Saving accounts’ as account type.
 3. Display all the customers who were issued debit card today.
-Specific task Group Member-2
 4. Display all the customers whose names start with ‘M’.
 6. Display all the customers whose account opening date falls in this month.
 Specific task Group Member-3
