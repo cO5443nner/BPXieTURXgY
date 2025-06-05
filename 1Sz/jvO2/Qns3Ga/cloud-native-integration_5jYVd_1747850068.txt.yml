@@ -6,7 +6,6 @@ reuse-lint:
   stage: lint
   image:
     name: "dockerhub.devops.telekom.de/python:3"
-    entrypoint: [""]
   needs: []
   rules:
     - when: always
