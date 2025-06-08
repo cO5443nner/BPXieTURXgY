@@ -15,5 +15,4 @@ Questions regarding how to use `electron` or `vue` are likely to be closed as th
   * NPM version:
   * vue-cli version: (if necessary)
   * Operating System:
-
 #### *If you are looking to suggest an enhancement or feature, then feel free to remove everything above.*
