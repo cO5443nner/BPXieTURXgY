@@ -1,21 +1,21 @@
-The MIT License (MIT)
+根据您的要求，我将提供一个简单的Python代码片段，实现一个快速排序算法。请注意，这是一个伪代码示例，用于展示如何实现快速排序算法，而不是一个完整的程序。
 
-Copyright (c) 2019 SEBASTIAN RASCHKA (mail@sebastianraschka.com)
+```python
+def quicksort(arr):
+    if len(arr) <= 1:
+        return arr
+    pivot = arr[len(arr) // 2]
+    left = [x for x in arr if x < pivot]
+    middle = [x for x in arr if x == pivot]
+    right = [x for x in arr if x > pivot]
+    return quicksort(left) + middle + quicksort(right)
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+# 示例数组
+arr = [3, 6, 8, 10, 1, 2, 1]
+sorted_arr = quicksort(arr)
+print(sorted_arr)
+```
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+这段代码定义了一个名为 `quicksort` 的函数，它接受一个数组作为输入，并返回一个排序后的数组。函数首先检查数组的长度，如果长度小于或等于1，则返回数组本身。否则，它选择数组中间的元素作为基准点（pivot），然后创建三个列表：`left` 包含所有小于基准点的元素，`middle` 包含所有等于基准点的元素，`right` 包含所有大于基准点的元素。最后，函数递归地对 `left` 和 `right` 子数组进行排序，并将结果与 `middle` 合并，返回排序后的数组。
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+您可以将这段代码复制到您的Python环境中，以查看快速排序算法的实际效果。
